@@ -7,6 +7,7 @@ for (var i = 0; i <= 9; i++){
     addH1.textContent = 'Hello World'
     document.body.appendChild(addH1);
     addH1.style.color = 'green'
+    addH1.style.textDecoration = 'underline';
 }
 
 const names = ['steve', 'larry', 'joe', 'shirley', 'steph', 'nate', 'rick', 'emily'];
