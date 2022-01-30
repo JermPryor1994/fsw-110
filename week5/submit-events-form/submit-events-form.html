@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Information Form</title>
+        <link rel='stylesheet' href='submit-events-form.css'/>
+    </head>
+    <body>
+        <form id='form'>
+            <header id='header'><b>Welcome To Pryor Inc.</b></header>
+
+            <header id='header2'>Please fill out this form and click 'Submit'</header>
+
+            <section class='section'>
+                First Name: <input type='text' id='firstname' placeholder="First Name"/>
+            </section>
+
+            <section class='section'>
+                Last Name: <input type='text' id='lastname' placeholder="Last Name"/>
+            </section>
+
+            <section class='section'>
+                Age: <input type='number' id='age' placeholder="Age"/>
+            </section>
+
+            <section class='section'>
+                Gender: 
+                Male<input type='radio' name='choice' value='Male'/>
+                Female<input type='radio' name='choice' value='Female'/>
+            </section>
+
+            <section class='section'>
+                Have you shopped with us before?
+                Yes<input type='radio' name='YN' value='Yes' class ='check'/>
+                No<input type='radio' name='YN' value='No' class='check'/>
+            </section>
+
+            <section id='rating' class='section'>
+                <p>How likely are you to recommend this product to a friend?</p>
+                Select an option: <select id='selection'>
+                    <option name='rate' value='Highly Likely'>Highly Likely</option>
+                    <option name='rate' value='Likely'>Likely</option>
+                    <option name='rate' value='Somewhat Likely'>Somewhat Likely</option>\
+                    <option name='rate' value='Not Likely'>Not Likely</option>
+                </select>
+            </section>
+
+            <section id='diet' class='section'>
+                <p>Do you have any dietary restrictions? </p>
+                <p>(select all that apply)</p>
+                Gluten Free:<input type='checkbox' name='decision' value='Gluten Free'/>
+                Keto:<input type='checkbox' name='decision' value='Keto'/>
+                Vegan:<input type='checkbox' name='decision' value='Vegan'/>
+                Liquid:<input type='checkbox' name='decision' value='Liquid'/>
+            </section>
+
+            <button id='button'>SUBMIT</button>
+        </form>
+    </body>
+    <script src='submit-events-form.js'></script>
+</html>
