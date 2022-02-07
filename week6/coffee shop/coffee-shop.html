@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Blacksmith Coffee</title>
+        <link rel="stylesheet" href="coffee-shop.css"/>
+
+    </head>
+    <body>
+        <header>
+            <img id="coffeegrounds" src="https://purepng.com/public/uploads/large/purepng.com-coffee-beanscoffee-beanscoffeestone-fruitpeaberry-14115272416419ytca.png"/>
+            <h1>BLACKSMITH COFFEE</h1>
+            <img id='coffee' src="https://purepng.com/public/uploads/large/purepng.com-cup-mug-coffeecupmugcoffeebean-1411527406369uqxp3.png"/>
+        </header>
+        <main>
+            <h2>Serving up the punch you need one cup at a time</h2>
+            <form id="order">
+                <div class="item" id="op1">
+                    <img class="itemimg" src="https://purepng.com/public/uploads/large/purepng.com-cup-mug-coffeecupmufcoffeebean-1411527406136mryu1.png"/>
+                    <h3>The Apprentice</h3>
+                    <p>For those who have the skill, but still need guidance.</p>
+                    <p class="price">Price: $1.50/cup</p>
+                    <input type="number" id="app">
+                </div>
+                <div class="item" id="op2">
+                    <img class="itemimg" src="https://purepng.com/public/uploads/large/purepng.com-cup-mug-coffeecupmugcoffeebean-1411527406039maxte.png"/>
+                    <h3>The Master</h3>
+                    <p>The top of their craft. Making the best stuff requires the boldest brew.</p>
+                    <p class="price">Price: $2.00/cup</p>
+                    <input type="number" id="mas">
+                </div>
+                <div class="item" id="op3">
+                    <img class="itemimg" src="https://purepng.com/public/uploads/large/purepng.com-coffee-cupfood-objects-cup-coffee-mug-tea-caffeine-941524635605tpevl.png"/>
+                    <h3>The Perfectionist</h3>
+                    <p>Perfect size. Perfect temperature. Perfect design. It all starts with the perfect beverage.</p>
+                    <p class="price">Price: $1.80/cup</p>
+                    <input type="number" id="per">
+                </div>
+                <div class="item" id="op4">
+                    <img class="itemimg" src="https://purepng.com/public/uploads/large/purepng.com-cup-mug-coffeecupmufcoffeebean-14115274056523zzvf.png"/>
+                    <h3>Tough As Nails</h3>
+                    <p>Only the toughest, the strongest, the heaviest of souls can match this specialty brew. Not for the faint of heart.</p>
+                    <p class="price">Price: $2.50/cup</p>
+                    <input type="number" id="nails">
+                </div>
+                <button id="button"><b>Start Smelting Coffee</b></button>
+            </form>
+        </main>
+        <div id="totalbox">
+            <h3>Your Order:</h3>
+            <ul id="orderitems">
+                    
+            </ul>
+            <div id="totalprice">
+                <p>Your Price:</p>
+                <p id="total"></p>
+            </div>
+        </div>
+        <footer>
+            <h4>Email: blacksmithcoffee@email.com</h4>
+            <a href="#blacksmithcoffee.com">Blacksmith Coffee Official Site</a>
+            <h4>Find us at: 1234 N Alpha St Place, Location 98765</h4>
+        </footer>
+    </body>
+    <script src="coffee-shop.js"></script>
+</html>
